@@ -5,7 +5,7 @@ Nome del team : NAOgraphy
 Partecipanti  : Giulia Gianasi  - giulia.gianasi@studio.unibo.it
                 Francesco Imperato  - francesco.imperato2@studio.unibo.it
 Repository    : https://github.com/giuliagianasi/NAO-Planning-Challenge.git
-Canzone       : Daft Punk - "The Son of Flynn" (TRON: Legacy), 1:35 (< 2 minuti)
+Canzone       : Daft Punk - "The Son of Flynn" (TRON: Legacy)
 
 LIBRERIE NECESSARIE
 -------------------
