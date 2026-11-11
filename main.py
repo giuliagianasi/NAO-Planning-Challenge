@@ -1,17 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-IL FIGLIO DI FLYNN - NAO Planning Challenge 2026/27
-
-    python main.py 127.0.0.1 PORTA           pianifica con A* ed esegue la coreografia
-    python main.py --solo-piano              mostra solo il piano (senza robot)
-    python main.py --report                  confronta A* con altre strategie (reporting.py)
-
-1. PIANIFICAZIONE (Python 3, search.py del laboratorio): per ogni tratto tra due posizioni
-   obbligatorie si crea un NaoProblem e lo si risolve con astar_search.
-2. ESECUZIONE: la canzone parte sul PC; ogni posizione aspetta il suo secondo della canzone
-   e poi si esegue il suo file in NaoMoves/ con Python 2 (NAOqi funziona solo con Python 2),
-   esattamente come si lancerebbe a mano:  python2 NaoMoves/16-Sit.py IP PORTA
-"""
 import os
 import subprocess
 import sys
