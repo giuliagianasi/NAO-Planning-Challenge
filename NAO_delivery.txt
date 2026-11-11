@@ -1,0 +1,41 @@
+NAO challenge delivery
+
+Authors:
+Giulia Gianasi giulia.gianasi@studio.unibo.it
+Francesco Imperato francesco.imperato2@studio.unibo.it
+
+Github repository: https://github.com/giuliagianasi/NAO-Planning-Challenge
+
+Instructions to execute the project:
+1. Install the required software:
+Git and Python 3 
+Choregraphe 2.8 (with Python 2.7 and NAOqi)
+
+2. Download the repository:
+git clone https://github.com/giuliagianasi/NAO-Planning-Challenge
+cd NAO-Planning-Challenge
+
+3. Install the Python 3 dependencies:
+python -m pip install -r requirements.txt
+
+4. Configure the virtual NAO robot:
+Open Choregraphe.
+Go to Edit > Preferences > General.
+Set "Motor speed (%)" to 100.
+Open the "Virtual Robot" tab.
+Select "NAO H25" as the robot model.
+Click OK and note the NAOqi port number.
+
+5. Run the project:
+Windows:
+  avvia_windows.bat XXXXX
+Linux / NaoUbuntu VM:
+  python3 main.py 127.0.0.1 XXXXX
+Replace XXXXX with the port shown in Choregraphe.
+
+
+
+
+
+
+
