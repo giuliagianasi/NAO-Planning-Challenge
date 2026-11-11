@@ -14,7 +14,6 @@ LIBRERIE NECESSARIE
 - Python 2.7 con NAOqi: esegue le posizioni (cartella NaoMoves/), come i file del corso.
     * Windows: quello dentro Choregraphe 2.8 (C:\Program Files (x86)\Softbank Robotics\
       Choregraphe Suite 2.8), main.py lo trova da solo.
-    * VM del corso (NaoUbuntu): il comando python2 con NAOqi gia' installato.
 - Musica sul PC: winsound (Windows, incluso in Python), afplay (macOS), aplay (Linux).
 
 COME TESTARE SUL NAO SIMULATO
